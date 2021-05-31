@@ -47,7 +47,7 @@ var div = d3.select("#cirkelToltip")
 // set the color scale
 var color = d3.scaleOrdinal()
   .domain(data)
-  .range(["#fcbba1", "#fc9272", "#fb6a4a", "#de2d26", "#a50f15"])
+  .range(["#fcbba1", "#fc9272", "#fb6a4a", "#ef3b2c", "#cb181d", "#99000d" ])
 
 // Compute the position of each group on the pie:
 var pie = d3.pie()
@@ -116,9 +116,10 @@ d3.select(".cirkelplot-area")
 
 
     const mitttext = [
-      { name:"Direkta",       hi: 0   },
-      { name:"Indirekta1",    hi: 15  },
-      { name:"Indirekta2",    hi: 30  },
+      { name:"Direkta",       hi: -15 },
+      { name:"Indirekta1",    hi: 0   },
+      { name:"Indirekta2",    hi: 15  },
+      { name:"Arbete",        hi: 30  },
       { name:"Avskrivningar", hi: 45  },
       { name:"Finansiella",   hi: 60  },
     ]

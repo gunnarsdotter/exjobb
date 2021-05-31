@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 //import MenuBar from './components/menu/menu';
 import CustumerRegistration  from "./views/custumerRegistration";
 import Productdivider  from "./views/productDivider";
+import SUS  from "./views/sus";
 import Result  from "./views/result";
 import Menu  from "./components/menu/menu";
 import Border  from "./components/user/border";
@@ -18,7 +19,7 @@ const Routes = () => {
    	return (
         <YearContext.Provider value={[year, setYear]}>	
         <UserContext.Provider value={[user, setUser]}>	
-            <Router>
+            <Router basename={'/exjobb'}>
                 <Menu/>
                 <Border/>
                 <Suspense fallback={<div>Loading...</div>}>
@@ -28,6 +29,7 @@ const Routes = () => {
                         <Route path="/productdivider" component={Productdivider}/>
                         <Route path="/import" component={ImportPopup}/>
                         <Route path="/result" component={Result}/>
+                        <Route path="/sus" component={SUS}/>
                     </Switch>
                 </Suspense>
             </Router>

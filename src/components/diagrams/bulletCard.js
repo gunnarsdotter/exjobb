@@ -57,7 +57,7 @@ return (
               >
                 <MenuItem value={1}>Hela Sverige</MenuItem>
                 <MenuItem value={10}>Norra Sverige</MenuItem>
-                <MenuItem value={20}>Mittersta Sverige</MenuItem>
+                <MenuItem value={20}>Mellan Sverige</MenuItem>
                 <MenuItem value={30}>Södra Sverige</MenuItem>
               </Select>
               </div>

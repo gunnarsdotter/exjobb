@@ -10,23 +10,23 @@ export const custumers = [
   {
     name: "Stora Gård",
     id: 0,
-    company: "Hagebergs AB",
+    company: "Hagebergs",
     mail: "info@ha.se",
-    adress: "lila edet 3",
+    adress: "Stora gård 3",
     phoneNumber:"0732818282",},
   {
-    name: "Lila Gård",
+    name: "Lilla Gård",
     id: 1,
-    company: "SDF AB",
-    mail: "info@sdf.com",
-    adress: "lila gärdet",
+    company: "Lilla gärdet",
+    mail: "info@lillagarden.com",
+    adress: "Lilla gärdet 8",
     phoneNumber:"0784383478",},
   {
     name: "Fagerslätt östergård",
     id: 2,
-    company: "Folkesons AB",
-    mail: "info@folkesons.se",
-    adress: "Rättviksgatan 34",
+    company: "Johanssons gård",
+    mail: "info@johanssons.se",
+    adress: "Fagerslätt östergård 8",
     phoneNumber:"0705030306",}
 ];
 export const UserContext = React.createContext();

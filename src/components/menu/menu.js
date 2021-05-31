@@ -26,6 +26,9 @@ export default function Menu() {
           <li>
             <Link to="/result" className="listItem">Resultat</Link>
           </li>
+          <li>
+            <Link to="/sus" className="listItem">SUS</Link>
+          </li>
         </ul>
         </Toolbar>
       </AppBar>

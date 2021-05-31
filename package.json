@@ -1,6 +1,6 @@
 {
   "name": "exjobb",
-  "homepage": "https://gunnarsdotter.github.io/exjobb",
+  "homepage": "https://gunnarsdotter.github.io/exjobb/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
