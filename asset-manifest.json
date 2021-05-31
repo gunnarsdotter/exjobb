@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/exjobb/static/css/main.d4381f7c.chunk.css",
-    "main.js": "/exjobb/static/js/main.5bfbc313.chunk.js",
-    "main.js.map": "/exjobb/static/js/main.5bfbc313.chunk.js.map",
+    "main.js": "/exjobb/static/js/main.0bc709d7.chunk.js",
+    "main.js.map": "/exjobb/static/js/main.0bc709d7.chunk.js.map",
     "runtime-main.js": "/exjobb/static/js/runtime-main.5299e65e.js",
     "runtime-main.js.map": "/exjobb/static/js/runtime-main.5299e65e.js.map",
     "static/js/2.b28139c5.chunk.js": "/exjobb/static/js/2.b28139c5.chunk.js",
@@ -13,12 +13,12 @@
     "static/media/1.d48dff26.PNG": "/exjobb/static/media/1.d48dff26.PNG",
     "static/media/2.a9d2f5d4.PNG": "/exjobb/static/media/2.a9d2f5d4.PNG",
     "static/media/3.15a6c1d8.PNG": "/exjobb/static/media/3.15a6c1d8.PNG",
-    "static/media/fordela.cdb69148.PNG": "/exjobb/static/media/fordela.cdb69148.PNG"
+    "static/media/fordela.42add59b.PNG": "/exjobb/static/media/fordela.42add59b.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.5299e65e.js",
     "static/js/2.b28139c5.chunk.js",
     "static/css/main.d4381f7c.chunk.css",
-    "static/js/main.5bfbc313.chunk.js"
+    "static/js/main.0bc709d7.chunk.js"
   ]
 }
