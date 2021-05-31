@@ -6,8 +6,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+h6{
+  color: #8AB959;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.root{
+  display: flex;
+  padding: 0px 24px;
+  flex-direction: column;
+}
+.dubbleroot{
+  display: flex;
+  padding: 0px 24px;
+  flex-direction: row;
+}
+.left{
+  width: 45vw;
+}
+.colum{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
 }
