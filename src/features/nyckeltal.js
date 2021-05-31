@@ -15,7 +15,7 @@ export const nyckeltal =[[
 ],
 [
     {   id: 0, title: "Mjölkpris", subtitle: "Per kg mjölk",
-        value: 3.73,mal: 3.4,
+        value: 3.73,mal: 3.9,
         high: 4, midd: 3.8, low: 3.45, zero: 2.9},
     {   id: 1, title: "Foderkostnad", subtitle: "Per kg mjölk",
         value: 1.51,mal: 1.7,

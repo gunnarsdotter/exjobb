@@ -124,7 +124,7 @@ d3.select(".plot-area")
             .style("opacity", .9);	
         div.html("<b>"+d3.select(this.parentNode).attr("gren") + "</b><br/>"+
           (d3.select(this).attr("name") === "utgift" ? "Utgift" : "Inkomst" )
-              + " : " + d3.select(this).attr("value")+ result.enhet)	
+              + ": " + d3.select(this).attr("value")+ result.enhet)	
             .style("left", (53 + Number(d3.select(this).attr("x"))
                   + Number(d3.select(this.parentNode).attr("x2"))) +"px")		
             .style("top",  d3.select(this).attr("y") + "px");	

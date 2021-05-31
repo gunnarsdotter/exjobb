@@ -15,8 +15,8 @@ function ImportPopup(props) {
     }
     return (
       <div className="popup" style={{height: "fit-content"}}>
-        <h1>Impotera bokföring</h1>
-        Du kan välja att impotera data från antingen en SIE-fil eller Excel. 
+        <h1>Importera bokföring</h1>
+        Du kan välja att importera data från antingen en SIE-fil eller Excel. 
         <div id="text1">
             <b > Ange bokföringsår:  </b>
             <Select  native

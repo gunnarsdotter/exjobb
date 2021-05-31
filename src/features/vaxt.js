@@ -12,19 +12,19 @@ export const lvaxt = [[
 ]];
 //smallest
 export const svaxt = [[
-    { id: 0,  konto: 4099, name: "Marsiker internt", belopp: -1181  },
+    { id: 0,  konto: 4099, name: "Maskiner internt", belopp: -1181  },
     { id: 1,  konto: "7***", name: "Löner", belopp: -806  },
     { id: 2,  konto: 4022, name: "Gödsel", belopp: -373  },
     { id: 3,  konto: 4098, name: "Utsäde", belopp: -98  },
     { id: 4,  konto: 5110, name: "Arrende", belopp:  -80  },
 ],[
-    { id: 0,  konto: 4099, name: "Marsiker internt", belopp: -1181  },
+    { id: 0,  konto: 4099, name: "Maskiner internt", belopp: -1181  },
     { id: 1,  konto: "7***", name: "Löner", belopp: -806  },
     { id: 2,  konto: 4022, name: "Gödsel", belopp: -373  },
     { id: 3,  konto: 4098, name: "Utsäde", belopp: -98  },
     { id: 4,  konto: 5110, name: "Arrende", belopp:  -80  },
 ], [
-    { id: 0,  konto: 4099, name: "Marsiker internt", belopp: -1181  },
+    { id: 0,  konto: 4099, name: "Maskiner internt", belopp: -1181  },
     { id: 1,  konto: "7***", name: "Löner", belopp: -806  },
     { id: 2,  konto: 4022, name: "Gödsel", belopp: -373  },
     { id: 3,  konto: 4098, name: "Utsäde", belopp: -98  },

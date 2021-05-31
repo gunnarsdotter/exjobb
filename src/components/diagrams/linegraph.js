@@ -52,7 +52,7 @@ d3.select(".linegrid")
   // Define the div for the tooltip
   var div = d3.select("#lineToltip")
       .attr("class", "tooltip")				
-      .style("opacity", 0);
+      .style("visibility", "collapse");
   
   // color palette = one color per subgroup
   var color = d3.scaleOrdinal()
@@ -130,11 +130,11 @@ d3.select(".lineplot-area")
       //Change tooltip
       div.transition()		
           .duration(200)		
-          .style("opacity",1);	
+          .style("visibility", "visible");	
       div.html("<b>" + d3.select(this).attr("color")+"</b><br>"+
           "År: " + d3.select(this).attr("ar")+ "<br>"+
           " Värde: " + d3.select(this).attr("value"))	
-          .style("left", (d3.select(this).attr("cx") +"px"))
+          .style("left", (d3.select(this).attr("cx")-10 +"px"))
           .style("top", (d3.select(this).attr("cy") + "px"));	  
     })					
     .on("mouseout", function(d) { 
@@ -142,7 +142,7 @@ d3.select(".lineplot-area")
         div
           .transition()		
           .duration(500)		
-          .style("opacity", 0);
+          .style("visibility", "collapse");
         //change color 
         d3.select(this).style("fill", color((d3.select(this).attr("color"))));
     });

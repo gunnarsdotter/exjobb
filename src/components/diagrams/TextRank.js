@@ -15,19 +15,19 @@ function helpfunc(){
     enhet: result.enhet,
     duration: result.duration,
     popupVisible: true,
-    title: "5 Största Inkomster och kostnader",
+    title: "5 Största Inkomster och utgifterna",
   })
 }
 return (
     <div className="card" id="Textrank">
-        5 största Inkomsterna
+        {arrayI.length} största inkomsterna
         <div className="rightcorner">
           <IconButton  id="barhelp" aria-label="Filter" onClick={helpfunc} >
             <HelpIcon style={{fontSize: "small"}}   />
           </IconButton>
         </div>
         <Table array={arrayI} total={totalIntakt} good={true} />   
-        5 största Utgifterna
+        {arrayU.length} största utgifterna
         <Table array={arrayU} total={totalUtgift} good={false} />   
     </div>
   );

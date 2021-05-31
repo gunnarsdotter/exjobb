@@ -86,7 +86,7 @@ const line =[
           </div>
           <div className='row' style={{height:"500px"}}>
           <Textrank totalIntakt={totalIntakt} totalUtgift={totalUtgift} arrayI={arrayI} arrayU={arrayU} />
-          <CirkelCard vinst={totalIntakt-totalUtgift}  totalIntakt={totalIntakt} array={array} title={("Utgifts uppdelning på gren: "+ driftsgrenarnamn[page])}/>
+          <CirkelCard vinst={totalIntakt-totalUtgift}  totalIntakt={totalIntakt} array={array} title={("Utgiftsuppdelning på driftsgren: "+ driftsgrenarnamn[page])}/>
           <BulletCard array={nyckeltal[page]}/> 
         </div>
       </div>
