@@ -1,0 +1,19 @@
+
+.popup{
+    position: fixed;
+    top: 15vh;
+    left: 15vw;
+    height: 70vh;
+    width: 70vw;
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 3px 3px 5px 6px #b3b1b1;  
+    -moz-box-shadow: 3px 3px 5px 6px #b3b1b1;  
+    box-shadow: 3px 3px 5px 6px #b3b1b1;
+}
+
+#text1{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}

@@ -1,0 +1,21 @@
+.menuRoot {
+    flex-grow: 1;
+    margin-bottom: 6px;
+}
+.menuTitle{
+    flex-grow: 1,
+}
+.toolbar{
+    background-color: #2A2D34;
+}
+.listStyle{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 60vw;
+    justify-content: space-evenly;
+}
+.listItem{
+    color:#FFF;
+    text-decoration: none;
+}
