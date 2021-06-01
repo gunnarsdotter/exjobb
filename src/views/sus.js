@@ -12,7 +12,7 @@ function SUS() {
           <img src={bild} alt="likertskala mellan 1-5" style={{width: "50%"}}></img>
           <p>4. Jag tror att jag skulle behöva hjälp av en teknisk person för att kunna använda det här verktyget.</p>
           <img src={bild} alt="likertskala mellan 1-5" style={{width: "50%"}}></img>
-          <p>5. Jag tycker att de olika funktionerna i det här verktyget var välintegrerade.</p>
+          <p>5. Jag tycker att de olika funktionerna i det här verktyget var väl integrerade.</p>
           <img src={bild} alt="likertskala mellan 1-5" style={{width: "50%"}}></img>
           <p>6. Jag tycker att det varför mycket som var inkonsekvent i det här verktyget.</p>
           <img src={bild} alt="likertskala mellan 1-5" style={{width: "50%"}}></img>
