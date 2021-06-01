@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/exjobb/static/css/main.d4381f7c.chunk.css",
+    "main.js": "/exjobb/static/js/main.1834fd7e.chunk.js",
+    "main.js.map": "/exjobb/static/js/main.1834fd7e.chunk.js.map",
+    "runtime-main.js": "/exjobb/static/js/runtime-main.5299e65e.js",
+    "runtime-main.js.map": "/exjobb/static/js/runtime-main.5299e65e.js.map",
+    "static/js/2.b28139c5.chunk.js": "/exjobb/static/js/2.b28139c5.chunk.js",
+    "static/js/2.b28139c5.chunk.js.map": "/exjobb/static/js/2.b28139c5.chunk.js.map",
+    "index.html": "/exjobb/index.html",
+    "static/css/main.d4381f7c.chunk.css.map": "/exjobb/static/css/main.d4381f7c.chunk.css.map",
+    "static/js/2.b28139c5.chunk.js.LICENSE.txt": "/exjobb/static/js/2.b28139c5.chunk.js.LICENSE.txt",
+    "static/media/1.d48dff26.PNG": "/exjobb/static/media/1.d48dff26.PNG",
+    "static/media/2.a9d2f5d4.PNG": "/exjobb/static/media/2.a9d2f5d4.PNG",
+    "static/media/3.15a6c1d8.PNG": "/exjobb/static/media/3.15a6c1d8.PNG",
+    "static/media/fordela.cdb69148.PNG": "/exjobb/static/media/fordela.cdb69148.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5299e65e.js",
+    "static/js/2.b28139c5.chunk.js",
+    "static/css/main.d4381f7c.chunk.css",
+    "static/js/main.1834fd7e.chunk.js"
+  ]
+}
